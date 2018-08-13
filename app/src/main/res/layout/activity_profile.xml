@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cuala.convenantuniversity.edu.ng.cuala.activity.ProfileActivity"
+    android:background="@color/colorAccent"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/civProfileImage"
+                android:src="@drawable/img_add_profile_image"
+                android:layout_width="match_parent"
+                android:layout_centerVertical="false"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="15dp"
+                android:layout_height="100dp" />
+
+            <TextView
+                android:text="Profile Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                android:layout_below="@+id/civProfileImage"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txtProfileName"
+                android:layout_marginBottom="25dp"
+                android:gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:layout_below="@+id/txtProfileName"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/editText"
+                android:hint="Email Address"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/editText"
+                android:layout_alignStart="@+id/editText"
+                android:id="@+id/editText2"
+                android:hint="Phone Number"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:layout_below="@+id/editText2"
+                android:layout_alignLeft="@+id/editText2"
+                android:layout_alignStart="@+id/editText2"
+                android:id="@+id/editText3"
+                android:hint="Year of Graduation"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_below="@+id/editText3"
+                android:layout_alignRight="@+id/editText3"
+                android:layout_alignEnd="@+id/editText3"
+                android:id="@+id/editText5"
+                android:hint="Matriculation Number"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_below="@+id/editText5"
+                android:layout_alignLeft="@+id/editText5"
+                android:layout_alignStart="@+id/editText5"
+                android:id="@+id/editText6"
+                android:hint="Course of Study"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:layout_alignParentBottom="true"
+                android:layout_alignLeft="@+id/editText6"
+                android:layout_alignStart="@+id/editText6"
+                android:id="@+id/editText7"
+                android:hint="Occupation"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:layout_marginBottom="20dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#66000000">
+
+        <TextView
+            android:text="Save Changes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_gravity="center"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:textSize="18sp"
+            android:padding="10dp" />
+    </LinearLayout>
+
+</LinearLayout>

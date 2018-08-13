@@ -1,0 +1,99 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/img_login_background"
+        android:id="@+id/imageView6"
+        android:scaleType="centerCrop"
+        android:cropToPadding="false"
+        android:fitsSystemWindows="false" />
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="#885e0a5f">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:paddingTop="56dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            app:srcCompat="@drawable/cuala_logo"
+            android:id="@+id/imageView5"
+            android:adjustViewBounds="true"
+            android:layout_height="200dp" />
+
+        <TextView
+            android:text="Covenant University Alumni Association"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            style="@style/Base.Widget.AppCompat.Button.Borderless.Colored"
+            android:textColor="@color/colorNavMenuTextColor"
+            android:textSize="24sp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:text="Sign in with Facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_signin_facbook"
+                android:elevation="5dp"
+                tools:text="Sign in with Facebook"
+                android:textColor="@color/colorNavMenuTextColor"
+                android:textSize="18sp"
+                android:layout_below="@+id/imageView3"
+                android:layout_marginTop="16dp"
+                android:elegantTextHeight="true"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center"
+                android:layout_centerHorizontal="false"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:drawableLeft="@mipmap/ic_fb_icon"
+                android:paddingRight="30dp"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:background="@drawable/button_border"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:textAppearance="@android:style/TextAppearance"
+                android:gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="15dp"
+                android:textSize="14sp"
+                android:textStyle="normal|bold"
+                android:textColor="@color/colorNavMenuTextColor"
+                android:layout_marginBottom="30dp"
+                android:text="@string/titleSignUp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</RelativeLayout>

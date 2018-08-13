@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4c0c4d</color>
+    <color name="colorPrimaryDark">#2f072f</color>
+    <color name="colorAccent">#5e0a5f</color>
+    <color name="colorNavMenuTextColor">#ffffff</color>
+    <color name="colorFacebookBlue">#3b5998</color>
+    <color name="colorNotAMemberText">#7f7c7c</color>
+    <color name="splashBackroundColour">#5e0a5f</color>
+    <color name="colorTranslucent">#77000000</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/menu_group_general" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_feed"
+            android:title="@string/menu_feed_title"
+            android:icon="@drawable/ic_menu_feed" />
+        <item
+            android:id="@+id/nav_members"
+            android:title="@string/menu_members"
+            android:icon="@drawable/ic_menu_members" />
+        <item
+            android:id="@+id/nav_jobsearch"
+            android:title="@string/menu_jobsearch_title"
+            android:icon="@drawable/ic_menu_job_search" />
+        <item
+            android:id="@+id/nav_messages"
+            android:title="@string/menu_messages_title"
+            android:icon="@drawable/ic_menu_messages" />
+        <item
+            android:id="@+id/nav_events"
+            android:title="@string/menu_events_title"
+            android:icon="@drawable/ic_menu_events" />
+        <item
+            android:id="@+id/nav_podcast"
+            android:title="@string/menu_podcast_title"
+            android:icon="@drawable/ic_menu_podcasts" />
+    </group>
+
+    <group android:id="@+id/menu_group_alumni" android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_donate"
+            android:title="@string/menu_donate_title"
+            android:icon="@drawable/ic_menu_donate" />
+        <item
+            android:id="@+id/nav_alumni"
+            android:title="@string/menu_alumni_services_title"
+            android:icon="@drawable/ic_menu_alumni_services" />
+        <item
+            android:id="@+id/nav_financials"
+            android:title="@string/menu_financial_reports_title"
+            android:icon="@drawable/ic_menu_financial_reports" />
+    </group>
+
+</menu>

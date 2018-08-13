@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_menu_entries">
+        <item>Feed</item>
+        <item>Job Search</item>
+        <item>Messages</item>
+        <item>Events</item>
+        <item>Podcasts</item>
+        <item>Financial Reports</item>
+        <item>Alumni Services</item>
+        <item>Donate</item>
+        <item>Settings</item>
+    </string-array>
+</resources>
